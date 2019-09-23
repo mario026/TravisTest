@@ -22,10 +22,6 @@ script:
 
 # This is to enable CodeCov's coverage
 # If a build is successful, the code is submitted for coverage analysis
-test:
- stage: test
- script:
-  - mvn test -B
 
 after_success:
   - echo 'succeed'
